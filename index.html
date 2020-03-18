@@ -1,0 +1,77 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Form Validator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <h1 id="title">COMPANY</h1>
+    <div class="container">
+      <div class="form-body">
+        <h3>Sign Up <i class="fas fa-exclamation"></i></h3>
+        <form action="/" method="GET">
+          <div class="form-input">
+            <label for="username">Username</label>
+            <input
+              autocomplete="off"
+              required="true"
+              type="text"
+              id="username"
+              class="form-field username"
+            />
+          </div>
+          <div class="form-input">
+            <label for="username">Email</label>
+            <input
+              autocomplete="off"
+              type="email"
+              id="email"
+              class="form-field email"
+            />
+          </div>
+          <div class="form-input">
+            <label for="username">Password</label>
+            <input
+              required="true"
+              type="password"
+              id="password"
+              class="form-field password"
+            />
+          </div>
+          <button>Sign Up</button>
+        </form>
+      </div>
+
+      <div class="form-body">
+        <h3>Login <i class="fas fa-exclamation"></i></h3>
+        <form action="/" method="GET">
+          <div class="form-input">
+            <label for="username">Email</label>
+            <input
+              autocomplete="off"
+              required="true"
+              type="email"
+              id="email"
+              class="form-field email"
+            />
+          </div>
+          <div class="form-input">
+            <label for="username">Password</label>
+            <input
+              required="true"
+              type="password"
+              id="password"
+              class="form-field password"
+            />
+          </div>
+          <button>Login</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
